@@ -1,0 +1,86 @@
+/* * {
+  outline: 1px solid red;
+}  */
+body {
+  overflow-x: hidden; }
+
+.patrocinadores {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block; }
+
+.card img:hover {
+  transform: scale(1.1);
+  transition: 2s all ease-out; }
+
+/*--fade-in effect--*/
+.card {
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 0.5s all ease;
+  overflow: hidden; }
+
+.imageEfectJava {
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 0.5s all ease;
+  overflow: hidden; }
+
+a {
+  text-decoration: none; }
+
+.card-body {
+  overflow: hidden; }
+
+div.card img {
+  width: 100%;
+  overflow: hidden;
+  height: auto; }
+
+.card.active {
+  transform: translateY(0);
+  opacity: 1; }
+
+.imageEfectJava.active1 {
+  transform: translateY(0);
+  opacity: 1; }
+
+.image img:hover {
+  transform: scale(1.2);
+  transition: 2s all ease-out; }
+
+.image {
+  overflow: hidden; }
+
+.icon_redSocial {
+  font-size: 2rem;
+  margin: 1rem -1rem 0 0;
+  color: black; }
+
+a:hover .icon_redSocial {
+  color: #2a6aa5; }
+
+.logos {
+  width: 90%;
+  margin-left: 2.7rem; }
+
+/*mixin*/
+@media (max-width: 599px) {
+  video {
+    width: 100%;
+    margin-left: 4px; } }
+@media (min-width: 600px) {
+  video {
+    width: 100%; } }
+
+@media (max-width: 599px) {
+  .patrocinadores {
+    width: 100%; } }
+@media (min-width: 600px) {
+  .patrocinadores {
+    width: 100%; } }
+
+/*# sourceMappingURL=style.css.map */
